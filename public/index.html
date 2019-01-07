@@ -331,7 +331,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://www.shixiaoli.com/2018/12/10/git-push错误/">
+    <link itemprop="mainEntityOfPage" href="http://www.shixiaoli.com/2018/12/28/group-by-order-by/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="LYH">
@@ -351,7 +351,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/2018/12/10/git-push错误/" class="post-title-link" itemprop="http://www.shixiaoli.com/index.html">git push错误</a>
+                <a href="/2018/12/28/group-by-order-by/" class="post-title-link" itemprop="http://www.shixiaoli.com/index.html">group by order by</a>
               
             
           </h1>
@@ -376,7 +376,7 @@
                 
               
 
-              <time title="Created: 2018-12-10 16:34:45 / Modified: 16:45:15" itemprop="dateCreated datePublished" datetime="2018-12-10T16:34:45+08:00">2018-12-10</time>
+              <time title="Created: 2018-12-28 17:58:09 / Modified: 18:01:21" itemprop="dateCreated datePublished" datetime="2018-12-28T17:58:09+08:00">2018-12-28</time>
             
 
             
@@ -398,7 +398,7 @@
                 <span class="post-meta-item-text">In</span>
               
               
-                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/Git/" itemprop="url" rel="index"><span itemprop="name">Git</span></a></span>
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/MYSQL/" itemprop="url" rel="index"><span itemprop="name">MYSQL</span></a></span>
 
                 
                 
@@ -434,11 +434,8 @@
       
         
           
-            <h3 id="一-情景"><a href="#一-情景" class="headerlink" title="一 情景"></a>一 情景</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">git push yuhaoblog</span><br><span class="line">error: The requested URL returned error: 403 Forbidden <span class="keyword">while</span> accessing https://github.com/letmeGC/blog.git/info/refs</span><br><span class="line"></span><br><span class="line">fatal: HTTP request failed</span><br></pre></td></tr></table></figure>
-<img src="/2018/12/10/git-push错误/情景.png">
-<h3 id="二-解决"><a href="#二-解决" class="headerlink" title="二 解决"></a>二 解决</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$  vim .git/config</span><br><span class="line">错误的: https://github.com/letmeGC/blog.git</span><br><span class="line">正确的: https://letmeGC@github.com/letmeGC/blog.git</span><br></pre></td></tr></table></figure>
-<img src="/2018/12/10/git-push错误/解决.png">
-
+            <p>###小记</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">SELECT * from tab1 GROUP BY uid ORDER BY time</span><br><span class="line"></span><br><span class="line">ORDER BY time 无效,只取每组第一条</span><br></pre></td></tr></table></figure>
           
         
       
@@ -494,7 +491,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://www.shixiaoli.com/2018/12/10/hexo插入图片/">
+    <link itemprop="mainEntityOfPage" href="http://www.shixiaoli.com/2018/12/20/hexo插入图片/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="LYH">
@@ -514,7 +511,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/2018/12/10/hexo插入图片/" class="post-title-link" itemprop="http://www.shixiaoli.com/index.html">hexo博文插入图片</a>
+                <a href="/2018/12/20/hexo插入图片/" class="post-title-link" itemprop="http://www.shixiaoli.com/index.html">hexo博文插入图片</a>
               
             
           </h1>
@@ -539,7 +536,7 @@
                 
               
 
-              <time title="Created: 2018-12-10 16:05:12" itemprop="dateCreated datePublished" datetime="2018-12-10T16:05:12+08:00">2018-12-10</time>
+              <time title="Created: 2018-12-20 16:34:01" itemprop="dateCreated datePublished" datetime="2018-12-20T16:34:01+08:00">2018-12-20</time>
             
 
             
@@ -557,7 +554,7 @@
                 <span class="post-meta-item-text">In</span>
               
               
-                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/hexo/" itemprop="url" rel="index"><span itemprop="name">hexo</span></a></span>
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/HEXO/" itemprop="url" rel="index"><span itemprop="name">HEXO</span></a></span>
 
                 
                 
@@ -593,10 +590,10 @@
       
         
           
-            <h3 id="一-把主页配置文件-config-yml-里的post-asset-folder-这个选项设置为true"><a href="#一-把主页配置文件-config-yml-里的post-asset-folder-这个选项设置为true" class="headerlink" title="一 把主页配置文件_config.yml 里的post_asset_folder:这个选项设置为true"></a>一 把主页配置文件_config.yml 里的post_asset_folder:这个选项设置为true</h3><img src="/2018/12/10/hexo插入图片/1.jpg" title="主页配置文件_config.yml">
+            <h3 id="一-把主页配置文件-config-yml-里的post-asset-folder-这个选项设置为true"><a href="#一-把主页配置文件-config-yml-里的post-asset-folder-这个选项设置为true" class="headerlink" title="一 把主页配置文件_config.yml 里的post_asset_folder:这个选项设置为true"></a>一 把主页配置文件_config.yml 里的post_asset_folder:这个选项设置为true</h3><img src="/2018/12/20/hexo插入图片/1.jpg" title="主页配置文件_config.yml">
 <h3 id="二-下载图片的插件"><a href="#二-下载图片的插件" class="headerlink" title="二 下载图片的插件"></a>二 下载图片的插件</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">在hexo目录下执行此命令 npm install hexo-asset-image --save ；</span><br><span class="line">然后在 &quot;hexo n 新文章&quot; 会出现 .md文件 和 一个同名文件夹；</span><br></pre></td></tr></table></figure>
-<img src="/2018/12/10/hexo插入图片/2.png" title="2.1">
-<img src="/2018/12/10/hexo插入图片/3.png" title="2.2">
+<img src="/2018/12/20/hexo插入图片/2.png" title="2.1">
+<img src="/2018/12/20/hexo插入图片/3.png" title="2.2">
 <h3 id="三-引入图片"><a href="#三-引入图片" class="headerlink" title="三 引入图片"></a>三 引入图片</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">格式 : &#123;% asset_img 1.jpg 说明可省略 %&#125;</span><br></pre></td></tr></table></figure>
 
           
@@ -654,7 +651,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://www.shixiaoli.com/2018/12/10/hexo发布文章/">
+    <link itemprop="mainEntityOfPage" href="http://www.shixiaoli.com/2018/12/20/hexo发布文章/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="LYH">
@@ -674,7 +671,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/2018/12/10/hexo发布文章/" class="post-title-link" itemprop="http://www.shixiaoli.com/index.html">hexo发布文章</a>
+                <a href="/2018/12/20/hexo发布文章/" class="post-title-link" itemprop="http://www.shixiaoli.com/index.html">hexo发布文章</a>
               
             
           </h1>
@@ -699,7 +696,7 @@
                 
               
 
-              <time title="Created: 2018-12-10 16:04:54" itemprop="dateCreated datePublished" datetime="2018-12-10T16:04:54+08:00">2018-12-10</time>
+              <time title="Created: 2018-12-20 16:33:49" itemprop="dateCreated datePublished" datetime="2018-12-20T16:33:49+08:00">2018-12-20</time>
             
 
             
@@ -717,7 +714,7 @@
                 <span class="post-meta-item-text">In</span>
               
               
-                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/hexo/" itemprop="url" rel="index"><span itemprop="name">hexo</span></a></span>
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/HEXO/" itemprop="url" rel="index"><span itemprop="name">HEXO</span></a></span>
 
                 
                 
@@ -810,7 +807,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://www.shixiaoli.com/2018/12/10/hello-world/">
+    <link itemprop="mainEntityOfPage" href="http://www.shixiaoli.com/2018/12/20/mysql索引学习记录/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="LYH">
@@ -830,7 +827,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/2018/12/10/hello-world/" class="post-title-link" itemprop="http://www.shixiaoli.com/index.html">Hello World</a>
+                <a href="/2018/12/20/mysql索引学习记录/" class="post-title-link" itemprop="http://www.shixiaoli.com/index.html">mysql索引一</a>
               
             
           </h1>
@@ -855,12 +852,34 @@
                 
               
 
-              <time title="Created: 2018-12-10 15:20:19" itemprop="dateCreated datePublished" datetime="2018-12-10T15:20:19+08:00">2018-12-10</time>
+              <time title="Created: 2018-12-20 15:49:10 / Modified: 17:11:53" itemprop="dateCreated datePublished" datetime="2018-12-20T15:49:10+08:00">2018-12-20</time>
             
 
+            
+              
+
+              
             
           </span>
 
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/MYSQL/" itemprop="url" rel="index"><span itemprop="name">MYSQL</span></a></span>
+
+                
+                
+              
+            </span>
           
 
           
@@ -891,15 +910,835 @@
       
         
           
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+            <h3 id="一MyISAM索引实现"><a href="#一MyISAM索引实现" class="headerlink" title="一MyISAM索引实现"></a>一MyISAM索引实现</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">MyISAM引擎使用B+Tree作为索引 ,索引文件的data存储指向数据文件的指针。辅索引与主索引基本一致，但是辅索引不用保证唯一性.</span><br><span class="line">因此，MyISAM中索引检索的算法为首先按照B+Tree搜索算法搜索索引，如果指定的Key存在，则取出其data域的值，然后以data域的值为地址读取相应数据记录。</span><br><span class="line"></span><br><span class="line">MyISAM的索引方式也叫做“非聚集”的，之所以这么称呼是为了与InnoDB的聚集索引区分。</span><br></pre></td></tr></table></figure>
+<img src="/2018/12/20/mysql索引学习记录/MyISAM索引的原理图.png" title="MyISAM引擎">
+<h3 id="二-InnoDB索引实现"><a href="#二-InnoDB索引实现" class="headerlink" title="二 InnoDB索引实现"></a>二 InnoDB索引实现</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">InnoDB使用B+Tree作为索引结构,实现方式却与MyISAM截然不同。</span><br><span class="line"></span><br><span class="line">第一个重大区别是InnoDB的数据文件本身就是索引文件。从上文知道，MyISAM索引文件和数据文件是分离的，索引文件仅保存数据记录的地址。</span><br><span class="line">而在InnoDB中，表数据文件本身就是按B+Tree组织的一个索引结构，这棵树的叶结点data域保存了完整的数据记录。这个索引的key是数据表的主键，</span><br><span class="line">因此InnoDB表数据文件本身就是主索引,这也是为什么INNODB会在你不设置主键的时候生成一个隐含字段作为主键</span><br></pre></td></tr></table></figure>
+<img src="/2018/12/20/mysql索引学习记录/innodb.png" title="innodb主键索引">
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">INNODB 辅助索引搜索需要检索两遍索引：首先检索辅助索引获得主键，然后用主键到主索引中检索获得记录</span><br></pre></td></tr></table></figure>
+<img src="/2018/12/20/mysql索引学习记录/对比图.png" title="查找过程对比图">
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+       
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://www.shixiaoli.com/2018/12/12/生成小数/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="LYH">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="LYH">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/12/12/生成小数/" class="post-title-link" itemprop="http://www.shixiaoli.com/index.html">生成小数</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+
+              
+                
+              
+
+              <time title="Created: 2018-12-12 18:03:22 / Modified: 18:12:01" itemprop="dateCreated datePublished" datetime="2018-12-12T18:03:22+08:00">2018-12-12</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/PHP/" itemprop="url" rel="index"><span itemprop="name">PHP</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">public function randFloat($min=0, $max=1)</span><br><span class="line">&#123;</span><br><span class="line">    return   $min + mt_rand()/mt_getrandmax() * ($max-$min);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">备注 : </span><br><span class="line">mt_getrandmax() 返回调用 mt_rand() 所能返回的最大的随机数。</span><br><span class="line">mt_rand()是更好地随机数生成器，因为它跟rand()相比播下了一个更好地随机数种子；而且性能上比rand()快4倍</span><br></pre></td></tr></table></figure>
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+       
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://www.shixiaoli.com/2018/12/12/查找电话号第三个数为8的用户/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="LYH">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="LYH">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/12/12/查找电话号第三个数为8的用户/" class="post-title-link" itemprop="http://www.shixiaoli.com/index.html">查找电话号第三个数为8的用户</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+
+              
+                
+              
+
+              <time title="Created: 2018-12-12 17:58:16" itemprop="dateCreated datePublished" datetime="2018-12-12T17:58:16+08:00">2018-12-12</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Modified: 2018-12-20 16:30:52" itemprop="dateModified" datetime="2018-12-20T16:30:52+08:00">2018-12-20</time>
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/MYSQL/" itemprop="url" rel="index"><span itemprop="name">MYSQL</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="LIKE-‘-8-’"><a href="#LIKE-‘-8-’" class="headerlink" title="LIKE ‘__8%’"></a>LIKE ‘__8%’</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">SELECT user_phone FROM tp_user WHERE user_phone LIKE <span class="string">'__8%'</span> <span class="built_in">limit</span> 10;</span><br></pre></td></tr></table></figure>
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+       
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://www.shixiaoli.com/2018/12/11/php/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="LYH">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="LYH">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/12/11/php/" class="post-title-link" itemprop="http://www.shixiaoli.com/index.html">/&/& 用法</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+
+              
+                
+              
+
+              <time title="Created: 2018-12-11 11:49:11 / Modified: 11:57:14" itemprop="dateCreated datePublished" datetime="2018-12-11T11:49:11+08:00">2018-12-11</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/PHP/" itemprop="url" rel="index"><span itemprop="name">PHP</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="一-传统用法-“并且”-的意思，也就是左右两边都为真"><a href="#一-传统用法-“并且”-的意思，也就是左右两边都为真" class="headerlink" title="一 传统用法 “并且” 的意思，也就是左右两边都为真"></a>一 传统用法 “并且” 的意思，也就是左右两边都为真</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> (<span class="variable">$a</span>&gt;0 &amp;&amp; <span class="variable">$b</span>&gt;0)&#123; </span><br><span class="line">     //语句； </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="二-作为条件语句使用"><a href="#二-作为条件语句使用" class="headerlink" title="二 作为条件语句使用"></a>二 作为条件语句使用</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"> <span class="variable">$a</span> &gt; 0 &amp;&amp; (<span class="variable">$b</span> = 123);   </span><br><span class="line"> 计算机会先判断<span class="variable">$a</span> 是否为真，如果是，则执行后面的语句，如果否，后面的语句就没有执行的必要了；</span><br><span class="line"> </span><br><span class="line"> 对比 ||,与 &amp;&amp; 相反 </span><br><span class="line"></span><br><span class="line"> <span class="variable">$a</span>&gt;0 || (<span class="variable">$b</span> = 123); </span><br><span class="line">计算机先判断<span class="variable">$a</span> &gt;0 是否为真，是:后面的语句不会执行，否：执行；</span><br></pre></td></tr></table></figure>
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+       
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://www.shixiaoli.com/2018/12/11/list/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="LYH">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="LYH">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/12/11/list/" class="post-title-link" itemprop="http://www.shixiaoli.com/index.html">list</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+
+              
+                
+              
+
+              <time title="Created: 2018-12-11 11:07:59 / Modified: 11:19:28" itemprop="dateCreated datePublished" datetime="2018-12-11T11:07:59+08:00">2018-12-11</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/PHP/" itemprop="url" rel="index"><span itemprop="name">PHP</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="一-情景"><a href="#一-情景" class="headerlink" title="一 情景"></a>一 情景</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">list() 用于在一次操作中给一组变量赋值。</span><br><span class="line"></span><br><span class="line"><span class="variable">$arr</span> = [<span class="string">'a'</span>,<span class="string">'b'</span>,<span class="string">'c'</span>];</span><br><span class="line">list(<span class="variable">$a</span>,<span class="variable">$b</span>) = <span class="variable">$arr</span>;</span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$a</span>,<span class="string">'---'</span>,<span class="variable">$b</span>;</span><br><span class="line"></span><br><span class="line">//输出 : a---b</span><br><span class="line"></span><br><span class="line">谨记 ：list()只用于数字索引的数组，且假定数字索引从 0 开始。</span><br></pre></td></tr></table></figure>
+<h3 id="二-错误用法"><a href="#二-错误用法" class="headerlink" title="二 错误用法"></a>二 错误用法</h3><img src="/2018/12/11/list/list1.png">
+<img src="/2018/12/11/list/list2.png">
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+       
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://www.shixiaoli.com/2018/12/10/next主题点击桃心效果/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="LYH">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="LYH">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/12/10/next主题点击桃心效果/" class="post-title-link" itemprop="http://www.shixiaoli.com/index.html">next主题点击桃心效果</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+
+              
+                
+              
+
+              <time title="Created: 2018-12-10 17:58:48" itemprop="dateCreated datePublished" datetime="2018-12-10T17:58:48+08:00">2018-12-10</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Modified: 2018-12-20 16:34:24" itemprop="dateModified" datetime="2018-12-20T16:34:24+08:00">2018-12-20</time>
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/HEXO/" itemprop="url" rel="index"><span itemprop="name">HEXO</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="一-themes-next-source-js-src下新建文件clicklove-js"><a href="#一-themes-next-source-js-src下新建文件clicklove-js" class="headerlink" title="一 /themes/next/source/js/src下新建文件clicklove.js"></a>一 /themes/next/source/js/src下新建文件clicklove.js</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">//把该代码拷贝粘贴到clicklove.js文件中:</span><br><span class="line"></span><br><span class="line">!<span class="keyword">function</span>(e,t,a)&#123;<span class="keyword">function</span> <span class="function"><span class="title">n</span></span>()&#123;c(<span class="string">".heart&#123;width: 10px;height: 10px;position: fixed;background: #f00;transform: rotate(45deg);-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);&#125;.heart:after,.heart:before&#123;content: '';width: inherit;height: inherit;background: inherit;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;position: fixed;&#125;.heart:after&#123;top: -5px;&#125;.heart:before&#123;left: -5px;&#125;"</span>),o(),r()&#125;<span class="keyword">function</span> <span class="function"><span class="title">r</span></span>()&#123;<span class="keyword">for</span>(var e=0;e&lt;d.length;e++)d[e].alpha&lt;=0?(t.body.removeChild(d[e].el),d.splice(e,1)):(d[e].y--,d[e].scale+=.004,d[e].alpha-=.013,d[e].el.style.cssText=<span class="string">"left:"</span>+d[e].x+<span class="string">"px;top:"</span>+d[e].y+<span class="string">"px;opacity:"</span>+d[e].alpha+<span class="string">";transform:scale("</span>+d[e].scale+<span class="string">","</span>+d[e].scale+<span class="string">") rotate(45deg);background:"</span>+d[e].color+<span class="string">";z-index:99999"</span>);requestAnimationFrame(r)&#125;<span class="keyword">function</span> <span class="function"><span class="title">o</span></span>()&#123;var t=<span class="string">"function"</span>==typeof e.onclick&amp;&amp;e.onclick;e.onclick=<span class="keyword">function</span>(e)&#123;t&amp;&amp;t(),i(e)&#125;&#125;<span class="keyword">function</span> i(e)&#123;var a=t.createElement(<span class="string">"div"</span>);a.className=<span class="string">"heart"</span>,d.push(&#123;el:a,x:e.clientX-5,y:e.clientY-5,scale:1,alpha:1,color:s()&#125;),t.body.appendChild(a)&#125;<span class="keyword">function</span> c(e)&#123;var a=t.createElement(<span class="string">"style"</span>);a.type=<span class="string">"text/css"</span>;try&#123;a.appendChild(t.createTextNode(e))&#125;catch(t)&#123;a.styleSheet.cssText=e&#125;t.getElementsByTagName(<span class="string">"head"</span>)[0].appendChild(a)&#125;<span class="keyword">function</span> <span class="function"><span class="title">s</span></span>()&#123;<span class="built_in">return</span><span class="string">"rgb("</span>+~~(255*Math.random())+<span class="string">","</span>+~~(255*Math.random())+<span class="string">","</span>+~~(255*Math.random())+<span class="string">")"</span>&#125;var d=[];e.requestAnimationFrame=<span class="function"><span class="title">function</span></span>()&#123;<span class="built_in">return</span> e.requestAnimationFrame||e.webkitRequestAnimationFrame||e.mozRequestAnimationFrame||e.oRequestAnimationFrame||e.msRequestAnimationFrame||<span class="keyword">function</span>(e)&#123;setTimeout(e,1e3/60)&#125;&#125;(),n()&#125;(window,document);</span><br></pre></td></tr></table></figure>
+<h3 id="二-在-themes-next-layout-layout-swig文件末尾引入："><a href="#二-在-themes-next-layout-layout-swig文件末尾引入：" class="headerlink" title="二 在/themes/next/layout/_layout.swig文件末尾引入："></a>二 在/themes/next/layout/_layout.swig文件末尾引入：</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;!-- 页面点击小红心 --&gt;</span><br><span class="line">&lt;script <span class="built_in">type</span>=<span class="string">"text/javascript"</span> src=<span class="string">"/js/src/clicklove.js"</span>&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure>
 
           
         
@@ -956,7 +1795,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://www.shixiaoli.com/2018/12/06/Go-slice/">
+    <link itemprop="mainEntityOfPage" href="http://www.shixiaoli.com/2018/12/10/nginx配置/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="LYH">
@@ -976,7 +1815,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/2018/12/06/Go-slice/" class="post-title-link" itemprop="http://www.shixiaoli.com/index.html">Go-slice</a>
+                <a href="/2018/12/10/nginx配置/" class="post-title-link" itemprop="http://www.shixiaoli.com/index.html">nginx配置</a>
               
             
           </h1>
@@ -1001,46 +1840,12 @@
                 
               
 
-              <time title="Created: 2018-12-06 18:02:34" itemprop="dateCreated datePublished" datetime="2018-12-06T18:02:34+08:00">2018-12-06</time>
+              <time title="Created: 2018-12-10 17:47:41" itemprop="dateCreated datePublished" datetime="2018-12-10T17:47:41+08:00">2018-12-10</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">Edited on</span>
-                
-                <time title="Modified: 2018-12-10 16:07:37" itemprop="dateModified" datetime="2018-12-10T16:07:37+08:00">2018-12-10</time>
-              
             
           </span>
 
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">In</span>
-              
-              
-                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/Go/" itemprop="url" rel="index"><span itemprop="name">Go</span></a></span>
-
-                
-                
-              
-            </span>
           
 
           
@@ -1071,10 +1876,7 @@
       
         
           
-            <h3 id="底层实现"><a href="#底层实现" class="headerlink" title="底层实现"></a>底层实现</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">切片的底层是一个数组，切片的表层是一个包含三个变量的结构体</span><br><span class="line">type slice struct &#123;</span><br><span class="line">  array unsafe.Pointer</span><br><span class="line">  length int</span><br><span class="line">  capcity int</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h3 id="对比数组"><a href="#对比数组" class="headerlink" title="对比数组"></a>对比数组</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">//数组</span><br><span class="line">array:=[5]int&#123;4:1&#125;</span><br><span class="line">//切片</span><br><span class="line">slice:=[]int&#123;4:1&#125;</span><br><span class="line">数组是值类型，将一个数组赋值给另一个数组时，传递的是一份拷贝。</span><br><span class="line">切片是引用类型，切片包装的数组称为该切片的底层数组。</span><br><span class="line"></span><br><span class="line">小例子 : </span><br><span class="line">func main() &#123;</span><br><span class="line">	//a是一个数组，注意数组是一个固定长度的，初始化时候必须要指定长度，不指定长度的话就是切片了</span><br><span class="line">	a := [3]int&#123;1, 2, 3&#125;</span><br><span class="line">	//b是数组，是a的一份拷贝</span><br><span class="line">	b := a</span><br><span class="line">	//c是切片，是引用类型，底层数组是a</span><br><span class="line">	c := a[:]</span><br><span class="line">	for i := 0; i &lt; len(a); i++ &#123;</span><br><span class="line">		a[i] = a[i] + i</span><br><span class="line">	&#125;</span><br><span class="line">	//改变a的值后，b是a的拷贝，b不变，c是引用，c的值改变</span><br><span class="line">	fmt.Println(a) //[1 3 5]</span><br><span class="line">	fmt.Println(b) //[1 2 3]</span><br><span class="line">	fmt.Println(c) //[1 3 5]</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="切片操作-make-append"><a href="#切片操作-make-append" class="headerlink" title="切片操作 [make append]"></a>切片操作 [make append]</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br></pre></td><td class="code"><pre><span class="line">func main() &#123;</span><br><span class="line">	var t = make([]int, 0, 4)</span><br><span class="line">	var s = make([]int, 0, 4)</span><br><span class="line">	var z = make([]int, 0, 4)</span><br><span class="line">	fmt.Printf(&quot;addr:%p \t\tlen:%v content:%v\n&quot;, t, len(t), t)</span><br><span class="line">	fmt.Printf(&quot;addr:%p \t\tlen:%v content:%v\n&quot;, s, len(s), s)</span><br><span class="line">	fmt.Printf(&quot;addr:%p \t\tlen:%v content:%v\n&quot;, z, len(z), z)</span><br><span class="line">	//&lt;=cap(s) 容量内</span><br><span class="line">	t = append(s, 1, 2, 3, 4)</span><br><span class="line">	fmt.Println(t)</span><br><span class="line">	fmt.Println(s)</span><br><span class="line">	fmt.Printf(&quot;addr:%p \t\tlen:%v content:%v\n&quot;, t, len(t), t)</span><br><span class="line">	fmt.Printf(&quot;addr:%p \t\tlen:%v content:%v\n&quot;, s, len(s), s)</span><br><span class="line">    //&gt;cap(s) 超出容量</span><br><span class="line">	z = append(s, 1, 2, 3, 4, 5)</span><br><span class="line">	fmt.Println(z)</span><br><span class="line">	fmt.Println(s)</span><br><span class="line">	fmt.Printf(&quot;addr:%p \t\tlen:%v content:%v\n&quot;, z, len(z), z)</span><br><span class="line">	fmt.Printf(&quot;addr:%p \t\tlen:%v content:%v\n&quot;, s, len(s), s)</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">输出 : </span><br><span class="line"></span><br><span class="line">addr:0xc0000480c0 		len:0 content:[]</span><br><span class="line">addr:0xc0000480e0 		len:0 content:[]</span><br><span class="line">addr:0xc000048100 		len:0 content:[]</span><br><span class="line">[1 2 3 4]</span><br><span class="line">[]</span><br><span class="line">addr:0xc0000480e0 		len:4 content:[1 2 3 4]</span><br><span class="line">addr:0xc0000480e0 		len:0 content:[]</span><br><span class="line">[1 2 3 4 5]</span><br><span class="line">[]</span><br><span class="line">addr:0xc00007a080 		len:5 content:[1 2 3 4 5]</span><br><span class="line">addr:0xc0000480e0 		len:0 content:[]</span><br><span class="line"></span><br><span class="line">解析 :</span><br><span class="line">切片是一段数组的描述，包括指向数组的指针，数组段落的长度，以及充许的最大长度。</span><br><span class="line">make初始化切片，是先创建一个底层数组，再创建一个地址指向该数组的切片并返回</span><br><span class="line">（切片为什么还要有最大长度，即容量，这是Go语言本身的需要，不然它的make函数没有办法工作)</span><br><span class="line"></span><br><span class="line">情景1:</span><br><span class="line"></span><br><span class="line">//&lt;=cap(s) 容量内 t = append(s, 1, 2, 3, 4)</span><br><span class="line">t 与 s 共享底层数组 所以地址一样 </span><br><span class="line"></span><br><span class="line">情景2:</span><br><span class="line"></span><br><span class="line">//&gt;cap(s) 超出容量 z = append(s, 1, 2, 3, 4, 5)</span><br><span class="line">t 与 s 指向的数组地址不一样了;</span><br><span class="line">&lt;&lt;&lt; </span><br><span class="line">append主要用于给切片追加元素;</span><br><span class="line">如果该切片存储容量cap足够，就直接追加，长度len变长；</span><br><span class="line">如果容量不足，就会重新开辟内存，创建新的底层数组，并将之前的元素和新的元素一同拷贝进去;</span><br></pre></td></tr></table></figure>
+            
           
         
       
@@ -1118,6 +1920,10 @@
   </section>
 
   
+  <nav class="pagination">
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right" aria-label="Next page"></i></a>
+  </nav>
+
 
 
           </div>
@@ -1158,7 +1964,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">5</span>
+                    <span class="site-state-item-count">12</span>
                     <span class="site-state-item-name">posts</span>
                   </a>
                 </div>
@@ -1177,7 +1983,11 @@
                     
                       
                     
-                    <span class="site-state-item-count">3</span>
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">5</span>
                     <span class="site-state-item-name">categories</span>
                   </a>
                 </div>
@@ -1196,7 +2006,13 @@
                     
                       
                     
-                    <span class="site-state-item-count">3</span>
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">6</span>
                     <span class="site-state-item-name">tags</span>
                   </a>
                 </div>
@@ -1405,3 +2221,6 @@
 
 </body>
 </html>
+
+
+<script type="text/javascript" src="/js/src/clicklove.js"></script>

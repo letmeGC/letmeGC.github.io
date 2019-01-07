@@ -1,6 +1,6 @@
 ---
 title: hexo博文插入图片
-categories: "hexo"
+categories: "HEXO"
 tags: [hexo]
 ---
 ### 一 把主页配置文件_config.yml 里的post_asset_folder:这个选项设置为true

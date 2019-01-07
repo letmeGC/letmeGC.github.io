@@ -1,6 +1,6 @@
 ---
 title: hexo发布文章
-categories: "hexo"
+categories: "HEXO"
 tags: [hexo]
 ---
 
