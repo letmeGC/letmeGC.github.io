@@ -1,5 +1,6 @@
 ---
 title: hexo博文插入图片
+date: 2018-12-06 18:02:35
 categories: "HEXO"
 tags: [hexo]
 ---
