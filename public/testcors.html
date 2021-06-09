@@ -1,0 +1,29 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.js"></script>
+    <title>jquery发送请求</title>
+</head>
+<body>
+<button id="btn">点击发送post请求</button>
+<div id="content"></div>
+
+<script>
+    $(function() {
+        $('#btn').click(function() {
+            $.post(
+                'https://liuyuhao-dev-xinlangdasai.app.wondertemple.com/api/wallet/incomeToCoin',
+                {
+                    num: '100',
+                    password: '123'
+                },
+                function(result) {
+                    alert(JSON.stringify(result));
+                    $('#content').text(JSON.stringify(result));
+                }
+            );
+        });
+    });
+</script>
+</body>
+</html>
